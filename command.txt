@@ -1,0 +1,2 @@
+ python train.py --weights weights/yolov7_training.pt --cfg cfg/training/yolov7-algae.yaml --data data/algae.yaml --device 0 --batch-size 10 --epoch 100
+

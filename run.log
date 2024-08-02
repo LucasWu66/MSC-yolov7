@@ -1,0 +1,148 @@
+Namespace(weights=['runs/train/exp/weights/best.pt'], source='datasets/Diatom_Dataset_labeled/test_detect_counting/', img_size=640, conf_thres=0.25, iou_thres=0.45, device='', view_img=False, save_txt=False, save_conf=False, nosave=False, classes=None, agnostic_nms=False, augment=False, update=False, project='runs/detect', name='exp', exist_ok=False, no_trace=False)
+Fusing layers... 
+RepConv.fuse_repvgg_block
+RepConv.fuse_repvgg_block
+RepConv.fuse_repvgg_block
+IDetect.fuse
+ Convert model to Traced-model... 
+ traced_script_module saved! 
+ model is traced! 
+
+3 Cymbellas, 1 Nitzschia, Done. (23.0ms) Inference, (2.5ms) NMS
+3 Cymbellas, 1 Nitzschia, 
+1 None Cymbella
+3 None Nitzschia
+None None Cocconeis
+None None Achnanthes
+None None Cyclotella
+None None Melosira
+[3, 'Cymbellas,', 1, 'Nitzschia,', 0, 'Cocconeis,', 0, 'Achnanthes,', 0, 'Cyclotella,', 0, 'Melosira,']
+ The image with the result is saved in: runs/detect/exp48/6.png
+1 Cocconeis, 1 Cymbella, Done. (19.2ms) Inference, (1.7ms) NMS
+1 Cocconeis, 1 Cymbella, 
+None 3 Cymbella
+None None Nitzschia
+1 None Cocconeis
+None None Achnanthes
+None None Cyclotella
+None None Melosira
+[4, 'Cymbellas,', 1, 'Nitzschia,', 1, 'Cocconeis,', 0, 'Achnanthes,', 0, 'Cyclotella,', 0, 'Melosira,']
+ The image with the result is saved in: runs/detect/exp48/612.png
+1 Cocconeis, Done. (19.2ms) Inference, (1.9ms) NMS
+1 Cocconeis, 
+None None Cymbella
+None None Nitzschia
+1 None Cocconeis
+None None Achnanthes
+None None Cyclotella
+None None Melosira
+[4, 'Cymbellas,', 1, 'Nitzschia,', 2, 'Cocconeis,', 0, 'Achnanthes,', 0, 'Cyclotella,', 0, 'Melosira,']
+ The image with the result is saved in: runs/detect/exp48/615.png
+1 Cocconeis, Done. (19.2ms) Inference, (1.9ms) NMS
+1 Cocconeis, 
+None None Cymbella
+None None Nitzschia
+1 None Cocconeis
+None None Achnanthes
+None None Cyclotella
+None None Melosira
+[4, 'Cymbellas,', 1, 'Nitzschia,', 3, 'Cocconeis,', 0, 'Achnanthes,', 0, 'Cyclotella,', 0, 'Melosira,']
+ The image with the result is saved in: runs/detect/exp48/620.png
+1 Cocconeis, 2 Cymbellas, Done. (19.1ms) Inference, (1.8ms) NMS
+1 Cocconeis, 2 Cymbellas, 
+3 None Cymbella
+None None Nitzschia
+1 None Cocconeis
+None None Achnanthes
+None None Cyclotella
+None None Melosira
+[6, 'Cymbellas,', 1, 'Nitzschia,', 4, 'Cocconeis,', 0, 'Achnanthes,', 0, 'Cyclotella,', 0, 'Melosira,']
+ The image with the result is saved in: runs/detect/exp48/626.png
+2 Cocconeiss, 1 Nitzschia, Done. (19.2ms) Inference, (1.9ms) NMS
+2 Cocconeiss, 1 Nitzschia, 
+None None Cymbella
+3 None Nitzschia
+None 1 Cocconeis
+None None Achnanthes
+None None Cyclotella
+None None Melosira
+[6, 'Cymbellas,', 2, 'Nitzschia,', 6, 'Cocconeis,', 0, 'Achnanthes,', 0, 'Cyclotella,', 0, 'Melosira,']
+ The image with the result is saved in: runs/detect/exp48/638.png
+2 Cocconeiss, 1 Cymbella, 1 Nitzschia, Done. (19.3ms) Inference, (1.7ms) NMS
+2 Cocconeiss, 1 Cymbella, 1 Nitzschia, 
+None 3 Cymbella
+5 None Nitzschia
+None 1 Cocconeis
+None None Achnanthes
+None None Cyclotella
+None None Melosira
+[7, 'Cymbellas,', 3, 'Nitzschia,', 8, 'Cocconeis,', 0, 'Achnanthes,', 0, 'Cyclotella,', 0, 'Melosira,']
+ The image with the result is saved in: runs/detect/exp48/639.png
+2 Cocconeiss, 1 Cymbella, 1 Cyclotella, 2 Nitzschias, Done. (19.2ms) Inference, (1.8ms) NMS
+2 Cocconeiss, 1 Cymbella, 1 Cyclotella, 2 Nitzschias, 
+None 3 Cymbella
+None 7 Nitzschia
+None 1 Cocconeis
+None None Achnanthes
+5 None Cyclotella
+None None Melosira
+[8, 'Cymbellas,', 5, 'Nitzschia,', 10, 'Cocconeis,', 0, 'Achnanthes,', 1, 'Cyclotella,', 0, 'Melosira,']
+ The image with the result is saved in: runs/detect/exp48/640.png
+2 Cocconeiss, Done. (19.4ms) Inference, (2.1ms) NMS
+2 Cocconeiss, 
+None None Cymbella
+None None Nitzschia
+None 1 Cocconeis
+None None Achnanthes
+None None Cyclotella
+None None Melosira
+[8, 'Cymbellas,', 5, 'Nitzschia,', 12, 'Cocconeis,', 0, 'Achnanthes,', 1, 'Cyclotella,', 0, 'Melosira,']
+ The image with the result is saved in: runs/detect/exp48/656.png
+1 Cocconeis, Done. (19.4ms) Inference, (1.8ms) NMS
+1 Cocconeis, 
+None None Cymbella
+None None Nitzschia
+1 None Cocconeis
+None None Achnanthes
+None None Cyclotella
+None None Melosira
+[8, 'Cymbellas,', 5, 'Nitzschia,', 13, 'Cocconeis,', 0, 'Achnanthes,', 1, 'Cyclotella,', 0, 'Melosira,']
+ The image with the result is saved in: runs/detect/exp48/660.png
+1 Cocconeis, 2 Cymbellas, Done. (19.1ms) Inference, (1.7ms) NMS
+1 Cocconeis, 2 Cymbellas, 
+3 None Cymbella
+None None Nitzschia
+1 None Cocconeis
+None None Achnanthes
+None None Cyclotella
+None None Melosira
+[10, 'Cymbellas,', 5, 'Nitzschia,', 14, 'Cocconeis,', 0, 'Achnanthes,', 1, 'Cyclotella,', 0, 'Melosira,']
+ The image with the result is saved in: runs/detect/exp48/676.png
+1 Cocconeis, Done. (23.0ms) Inference, (1.9ms) NMS
+1 Cocconeis, 
+None None Cymbella
+None None Nitzschia
+1 None Cocconeis
+None None Achnanthes
+None None Cyclotella
+None None Melosira
+[10, 'Cymbellas,', 5, 'Nitzschia,', 15, 'Cocconeis,', 0, 'Achnanthes,', 1, 'Cyclotella,', 0, 'Melosira,']
+ The image with the result is saved in: runs/detect/exp48/688.png
+2 Cocconeiss, Done. (23.1ms) Inference, (1.9ms) NMS
+2 Cocconeiss, 
+None None Cymbella
+None None Nitzschia
+None 1 Cocconeis
+None None Achnanthes
+None None Cyclotella
+None None Melosira
+[10, 'Cymbellas,', 5, 'Nitzschia,', 17, 'Cocconeis,', 0, 'Achnanthes,', 1, 'Cyclotella,', 0, 'Melosira,']
+ The image with the result is saved in: runs/detect/exp48/697.png
+****************************************************************************************
+*********************************The Final Result of Counting***************************
+****************************************************************************************
+   Cymbellas  =  10 個   ,    Nitzschia =  5 個   
+   Achnanthes =  0 個   ,    Cyclotella =  1 個   
+   Cocconeis  =  17 個   ,    Melosira =  0 個   
+   Generic Index (GI) =    4.5
+Done. (3.443s)
